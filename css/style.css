@@ -1,0 +1,145 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1296px;
+  margin: auto;
+}
+
+.navbar-wrapper {
+  max-width: 1700px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar__logo__img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__ul {
+  width: 745px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar__li {
+  list-style-type: none;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.navbar__button {
+  padding: 10px 30px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  padding-top: 38px;
+  height: 960px;
+  background-color: #000;
+  background-image: url(../img/background-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  color: #fff;
+  margin-top: 188px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 140%;
+  margin-bottom: 50px;
+}
+
+.header__card {
+  width: 100px;
+  height: 110px;
+  background-color: #131313;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0;
+}
+
+.header__subtext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  opacity: 0.4;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 522px;
+  height: 110px;
+}
+/*# sourceMappingURL=style.css.map */
