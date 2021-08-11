@@ -1,4 +1,5 @@
 .header
+  position: relative
   padding-top: 38px
   height: 960px
   background-color: #000
@@ -40,3 +41,92 @@
   justify-content: space-between
   width: 522px
   height: 110px
+
+.sale
+  position: absolute
+  display: flex
+  bottom: 0
+  right: 0
+  left: 0
+  background-color: #121212
+  height: 130px
+  align-items: center
+  &-wrapper
+    display: flex
+    width: 1296px
+    height: 67px
+    margin: auto
+    align-items: center
+    justify-content: space-between
+    justify-items: center
+  &__button
+    width: 164px
+    height: 44px
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 150%
+    text-align: center
+    color: #FFFFFF
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+    border-radius: 50px
+    border: none
+    cursor: pointer
+  &__block
+    display: flex
+    flex-direction: column
+    &__text
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 150%
+      color: #FFFFFF
+      opacity: 0.4
+      margin-right: 30px
+      margin-bottom: 10px
+    &__subtext
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 150%
+      color: #FFFFFF
+      margin-bottom: 10px
+  &__div
+    display: flex
+    width: 251px
+    height: 58px
+  &__scale
+    width: 100%
+    height: 5px
+    background: #FFFFFF
+    margin-bottom: 8px
+    &__div
+      height: 100%
+      width: 60%
+      background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+  &__progress
+    width: 714px
+    height: 67px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &__inline
+      margin-bottom: 8px
+      height: 25px
+    &__text
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 150%
+      color: #FFFFFF
+      opacity: 0.4
+      margin-right: 30px
+    &__subtext
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 150%
+      color: #FFFFFF
+  &__numbers
+    display: flex
+    justify-content: space-between
